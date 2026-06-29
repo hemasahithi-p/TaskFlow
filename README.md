@@ -177,48 +177,6 @@ http://localhost:3000
 
 ---
 
-# 📸 Application Screenshots
-
-## 🏠 Home Page
-
-<p align="center">
-  <img src="frontend/screenshots/Home.png" width="900">
-</p>
-
----
-
-## ➕ Add Todo
-
-<p align="center">
-  <img src="frontend/screenshots/add-todo.png" width="900">
-</p>
-
----
-
-## ✏️ Edit Todo
-
-<p align="center">
-  <img src="frontend/screenshots/edit-todo.png" width="900">
-</p>
-
----
-
-## 📄 Todo Details
-
-<p align="center">
-  <img src="frontend/screenshots/details.png" width="900">
-</p>
-
----
-
-## ✅ Completed Todo
-
-<p align="center">
-  <img src="frontend/screenshots/completed.png" width="900">
-</p>
-
----
-
 # 🚀 Future Enhancements
 
 - 🔐 User Authentication
