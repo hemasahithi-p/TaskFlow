@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Assignment",
+    "description": "Finish Ziptrrip Todo Application",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "hi",
+    "description": "heyy",
+    "completed": true
+  }
+]
