@@ -1,50 +1,50 @@
 # 🚀 TaskFlow
 
-A modern Full Stack Todo Application built with **React.js**, **Node.js**, and **Express.js**. TaskFlow enables users to efficiently manage daily tasks with complete CRUD functionality, persistent JSON-based storage, and a clean multi-page interface.
+A modern Full Stack Todo Application built using **React.js**, **Node.js**, **Express.js**, and **Axios**. TaskFlow enables users to efficiently manage daily tasks with complete CRUD functionality and persistent JSON-based storage.
 
 ---
 
-## 📖 Overview
+# 📖 Overview
 
-TaskFlow is a simple yet powerful task management application that demonstrates full-stack web development concepts. It provides a responsive React frontend connected to a RESTful Express backend with persistent data storage using a JSON file.
+TaskFlow is a simple and user-friendly task management application that demonstrates full-stack web development concepts. It features a React frontend, an Express backend, and JSON-based persistent data storage.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 📋 View all todos
 - ➕ Add new todos
 - ✏️ Edit existing todos
 - 🗑️ Delete todos
-- 📄 View detailed information for each todo
+- 📄 View detailed information of a todo
 - ✅ Mark todos as Completed or Pending
-- 🔄 Automatic UI updates
+- 🔄 Real-time UI updates
 - 💾 Persistent JSON file storage
-- 🌐 RESTful API
+- 🌐 RESTful API using Express.js
 - 📱 Multi-page application using React Router
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
+## Frontend
 
 - React.js
 - React Router DOM
 - Axios
 - CSS3
 
-### Backend
+## Backend
 
 - Node.js
 - Express.js
 - CORS
 
-### Data Storage
+## Database
 
 - JSON File (`todos.json`)
 
-### Development Tools
+## Development Tools
 
 - Visual Studio Code
 - Git
@@ -60,20 +60,22 @@ TaskFlow
 │
 ├── backend
 │   ├── controllers
-│   │   └── todoController.js
-│   │
 │   ├── routes
-│   │   └── todoRoutes.js
-│   │
 │   ├── data
 │   │   └── todos.json
-│   │
 │   ├── server.js
 │   ├── package.json
 │   └── package-lock.json
 │
 ├── frontend
 │   ├── public
+│   ├── screenshots
+│   │   ├── Home.png
+│   │   ├── add-todo.png
+│   │   ├── edit-todo.png
+│   │   ├── details.png
+│   │   └── completed.png
+│   │
 │   ├── src
 │   │   ├── components
 │   │   ├── pages
@@ -84,13 +86,6 @@ TaskFlow
 │   │
 │   ├── package.json
 │   └── package-lock.json
-│
-├── screenshots
-│   ├── home.png
-│   ├── add-todo.png
-│   ├── edit-todo.png
-│   ├── details.png
-│   └── completed.png
 │
 ├── .gitignore
 └── README.md
@@ -134,7 +129,7 @@ node server.js
 
 Backend runs at:
 
-```
+```text
 http://localhost:5000
 ```
 
@@ -142,7 +137,7 @@ http://localhost:5000
 
 # 💻 Frontend Setup
 
-Open a new terminal.
+Open another terminal.
 
 Navigate to the frontend folder.
 
@@ -164,7 +159,7 @@ npm start
 
 Frontend runs at:
 
-```
+```text
 http://localhost:3000
 ```
 
@@ -177,7 +172,7 @@ http://localhost:3000
 | GET | `/todos` | Retrieve all todos |
 | GET | `/todos/:id` | Retrieve a specific todo |
 | POST | `/todos` | Create a new todo |
-| PUT | `/todos/:id` | Update an existing todo |
+| PUT | `/todos/:id` | Update a todo |
 | DELETE | `/todos/:id` | Delete a todo |
 
 ---
@@ -186,31 +181,41 @@ http://localhost:3000
 
 ## 🏠 Home Page
 
-![Home Page](screenshots/home.png)
+<p align="center">
+  <img src="frontend/screenshots/Home.png" width="900">
+</p>
 
 ---
 
 ## ➕ Add Todo
 
-![Add Todo](screenshots/add-todo.png)
+<p align="center">
+  <img src="frontend/screenshots/add-todo.png" width="900">
+</p>
 
 ---
 
 ## ✏️ Edit Todo
 
-![Edit Todo](screenshots/edit-todo.png)
+<p align="center">
+  <img src="frontend/screenshots/edit-todo.png" width="900">
+</p>
 
 ---
 
 ## 📄 Todo Details
 
-![Todo Details](screenshots/details.png)
+<p align="center">
+  <img src="frontend/screenshots/details.png" width="900">
+</p>
 
 ---
 
 ## ✅ Completed Todo
 
-![Completed Todo](screenshots/completed.png)
+<p align="center">
+  <img src="frontend/screenshots/completed.png" width="900">
+</p>
 
 ---
 
@@ -231,7 +236,7 @@ http://localhost:3000
 
 **Hema Sahithi P**
 
-- GitHub: https://github.com/hemasahithi-p
+GitHub: https://github.com/hemasahithi-p
 
 ---
 
@@ -243,4 +248,4 @@ This project is created for educational and learning purposes.
 
 # ⭐ Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub!
+If you found this project useful, consider giving it a ⭐ on GitHub.
