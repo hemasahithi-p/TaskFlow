@@ -1,14 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Complete Assignment",
-    "description": "Finish Ziptrrip Todo Application",
-    "completed": false
-  },
-  {
-    "id": 2,
-    "title": "hi",
-    "description": "heyy",
+    "title": "React app",
+    "description": "Creating the app",
     "completed": true
   }
 ]
